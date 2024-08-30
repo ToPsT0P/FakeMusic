@@ -1,0 +1,32 @@
+
+.wrapper{
+  height: calc(100% - 100px);
+
+}
+
+.wrapper__mainSection{
+  width: 88vw;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.wrapper__mainSection__tracks{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+}
+
+.wrapper__mainSection__text{
+  width: 30%;
+  border-left: 1px solid #3a3a3a;
+  padding-left: 20px;
+
+  p{
+    color: white;
+  }
+}
+

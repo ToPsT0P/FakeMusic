@@ -1,0 +1,107 @@
+
+
+.background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  backdrop-filter: blur(5px);
+  z-index: 60;
+}
+
+.wrapper{
+  width: 30vw;
+  height: fit-content;
+  min-height: 100px;
+  gap: 20px;
+  min-width: 370px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1b1b1b;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #3a3a3a;
+  box-shadow: 1px 1px 33px 10px #101010;
+  color: white;
+  justify-content: center;
+
+  h2{
+    height: fit-content;
+    margin-top: 5vh;
+  }
+
+
+}
+
+.wrapper__input{
+  width: 100%;
+  overflow: hidden;
+  height: fit-content;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  input{
+    outline: none;
+  }
+
+  .wrapper__input__artistName{
+    width: 90%;
+    height: 60px;
+    background-color: #1b1b1b;
+    border: 1px solid #808080;
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    border-radius: 8px;
+
+  }
+}
+
+.wrapper__input__imageDownload{
+  width: 90%;
+}
+
+.wrapper__input__imageDownload__image{
+  width: 99%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #808080;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.wrapper__input__imageDownload__image__icon{
+  width: 40px;
+  height: 40px;
+}
+
+.wrapper__input__continueButton{
+
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  button{
+    width: 100%;
+    padding: 20px;
+    color: white;
+    border: 1px solid #808080;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgba(0, 255, 0, 0.57);
+  }
+
+}

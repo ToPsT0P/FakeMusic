@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+*{
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+
+}
+
+.absoluteWrapper{
+  height: fit-content;
+  background-color: #121212;
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+
+}
+
+#root{
+  min-width: 700px;
+}

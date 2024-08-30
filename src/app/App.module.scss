@@ -1,0 +1,32 @@
+
+
+.wrapper{
+  width: 90vw;
+  justify-self: center;
+  justify-content: center;
+  height: 100vh;
+  min-width: 375px;
+  background-color: #181818;
+
+
+}
+
+#root{
+  min-width: 700px;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper{
+    width: 100vw;
+  }
+
+}
+
+.currentMusic{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  left: 0;
+}
